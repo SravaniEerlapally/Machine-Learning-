@@ -1,0 +1,53 @@
+ ML is the process of training a piece of software, called a model, to make useful predictions or generate content from data.
+Types of ML Systems:
+  -Supervised learning:
+   Supervised learning models can make predictions after seeing lots of data with the correct answers and then discovering the connections between the elements in the data that produce the correct answers.
+      TWO TYPES:
+      1.Regression
+          A regression model predicts a numeric value. 
+         For example, a weather model that predicts the amount of rain, in inches or millimeters, is a regression model. OR future house price prediction or Future ride time
+     2.Classification
+          Classification models predict the likelihood that something belongs to a category.
+          Classification models output a value that states whether or not something belongs to a particular category. 
+          For example, classification models are used to predict if an email is spam or if a photo contains a cat.
+         Classification models are divided into two groups: 
+            i)binary classification :Binary classification models output a value from a class that contains only two values
+               eg:a model that outputs either rain or no rain. 
+          ii)Multiclass classification : models output a value from a class that contains more than two values
+               eg: a model that can output either rain, hail, snow, or sleet.
+
+  -Unsupervised learning
+    Unsupervised learning models make predictions by being given data that does not contain any correct answers.This model's goal is to identify meaningful patterns among the data.
+    Commonly used is Clustering, it is different from classification as we label before in classification & then it classifies , here it does based on similarity.
+
+  -Reinforcement learning
+    Reinforcement learning models make predictions by getting rewards or penalties based on actions performed within an environment. 
+    A reinforcement learning system generates a policy that defines the best strategy for getting the most rewards.
+    eg: robots to perform tasks, like walking around a room, and software programs like AlphaGo to play the game of Go.
+
+  -Generative AI
+    Generative AI is a class of models that creates content from user input.
+    Generative AI can take a variety of inputs and create a variety of outputs, like text, images, audio, and video. It can also take and create combinations of these.
+    Use cases: Text-to-text, Text-to-image, Text-to-video, Text-to-code, Text-to-speech, Image and text-to-image
+
+    --How does generative AI work?--
+    At a high-level, generative models learn patterns in data with the goal to produce new but similar data. Generative models are like the following:
+    To produce unique and creative outputs, generative models are initially trained using an unsupervised approach, where the model learns to mimic the data it's trained on. 
+    The model is sometimes trained further using supervised or reinforcement learning on specific data related to tasks the model might be asked to perform.
+    for example, summarize an article or edit a photo.
+
+
+   Foundational supervised learning concepts
+      Supervised machine learning is based on the following core concepts:
+       -- Data
+       -- Model
+       -- Training
+       -- Evaluating
+       -- Inference
+
+
+
+
+
+
+
